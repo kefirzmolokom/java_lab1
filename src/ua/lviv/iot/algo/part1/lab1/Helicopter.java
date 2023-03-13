@@ -44,8 +44,8 @@ public class Helicopter {
         helicopters[2] = getInstance();
         helicopters[3] = getInstance();
 
-        for(int i = 0; i < helicopters.length; i++){
-            System.out.println(helicopters[i]);
+        for (Helicopter helicopter : helicopters) {
+            System.out.println(helicopter);
         }
     }
 }
